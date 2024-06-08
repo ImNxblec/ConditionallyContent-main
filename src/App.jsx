@@ -28,11 +28,6 @@ function App() {
         <button onClick={handleShowWarning}>Delete</button>)}
       </div>    
     </>
-  /*     Usamos show aqui por que es una variable de estado boolean y puede ser true o false
-  Si showWarning es true, se renderiza el contenido dentro de los paréntesis.
-  Si showWarning es false, no se renderiza nada de lo que está dentro de los paréntesis.
-  El operador lógico && / AND en JavaScript devuelve el primer valor falso que encuentra 
-  o el último valor si todos son verdaderos. -Carlos Dimitrakis*/
   )
 }
 
